@@ -33,8 +33,8 @@ public class Author {
         return books;
     }
 
-    public void setBooks(Set<Book> books) {
-        this.books = books;
+    public void addBooks(Book book) {
+        this.books.add(book);
     }
 
     public Author(String firstName, String lastName) {
